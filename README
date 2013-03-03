@@ -1,0 +1,7 @@
+qxtz is a Qooxdoo contribution that allows the display of a timezone map,
+including selection and timezone detection.
+
+The detection is based on jstz [1].
+
+
+[1] https://bitbucket.org/pellepim/jstimezonedetect
