@@ -195,6 +195,13 @@ qx.Class.define("qxtz.TimeZoneManager",
         res.append([new qxtz.TimeZone(qxtz.Olson.all[i])]);
       }
 
+      res.sort(function(a, b) {
+        if(a.getName() == b.getName()){
+          return 0;
+        }
+        return (a.getName() < b.getName()) ? -1 : 1;
+      });
+
       return res;
     }
   }

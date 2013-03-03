@@ -147,7 +147,6 @@ qx.Class.define("qxtz.TimeZone",
       // Get offset, dtc and hemisphere
       for (i in qxtz.Olson.timezones) {
         if (qxtz.Olson.timezones[i] == tz) {
-          console.log(i);
           return i;
         }
       }
@@ -174,7 +173,6 @@ qx.Class.define("qxtz.TimeZone",
         tz = ambiguity_list[i];
 
         if (qxtz.TimeZoneManager.dateIsDst(qxtz.TimeZoneManager.dstStartFor(tz))) {
-            console.log("setting " + tz);
           return tz;
         }
       }
