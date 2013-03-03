@@ -1,0 +1,34 @@
+{
+  "info" : 
+  {
+    "name" : "qxtz",
+
+    "summary" : "qxtz Contribution",
+    "description" : "This is a skeleton for a qooxdoo contribution.",
+    
+    "homepage" : "http://contrib.qooxdoo.org/project/qxtz",
+
+    "license" : "LGPL/EPL",
+    "authors" : 
+    [
+      {
+        "name" : "First Author (uid)",
+        "email" : "first.author@some.domain"
+      }
+    ],
+
+    "version" : "trunk",
+    "qooxdoo-versions": ["2.1.1"]
+  },
+  
+  "provides" : 
+  {
+    "namespace"   : "qxtz",
+    "encoding"    : "utf-8",
+    "class"       : "source/class",
+    "resource"    : "source/resource",
+    "translation" : "source/translation",
+    "type"        : "contribution"
+  }
+}
+
